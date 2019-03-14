@@ -1,0 +1,198 @@
+@font-face {font-family: AnironBold; src: url(fonts/anirb___.ttf);}
+@font-face {font-family: TengwarAnnatar; src: url(fonts/tngani.ttf);}
+@font-face {font-family: PartyBusiness; src: url(fonts/partybusiness.ttf);}
+
+
+
+h1 {
+    font-family: AnironBold;
+    font-size: 1.5em;
+}
+p {
+    font-family: AnironBold;
+    font-size: 2em;
+}
+.bg-light {
+    height: 1000px;
+    padding: 24px;
+    background-color: rgba(150, 150, 150, 1);
+}
+.bg-dark {
+    height: 1000px;
+    padding: 24px;
+    background-color: rgba(30, 30, 30, 1);
+    color: rgba(255, 255, 255, 1);
+}
+.bg-orange{
+    background-color: rgba(254, 102, 29, 1);
+}
+.bg-orange a{
+    color: rgba(255, 255, 255, 1);
+    font-family: AnironBold;
+    font-size: 1em;
+}
+
+/*//////////////////////////////// navbar ///////////////////////////////////*/
+
+.hey{
+    color: rgba(255, 255, 255, 1);
+    z-index: 9000;
+}
+.navbar-brand{
+    padding-right: 24px;
+}
+.lineal{
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.active{
+    border-bottom: 5px solid rgba(255, 255, 255, 1);
+}
+
+/*//////////////////////////////// Exrecice ///////////////////////////////////*/
+
+.flexiflex{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 24px;
+}
+
+.flax{
+    align-self: center;
+}
+
+.audi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ring1 {
+  width: 50px;
+  height: 50px;
+  border: solid;
+  border-color: #fe661d;
+  border-width: 2.5px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  box-shadow: 2.5px 2.5px 2.5px #fe661d, inset 2.5px 2.5px 2.5px #fe661d;
+  margin-left: 0;
+}
+
+.ring2 {
+  width: 200px;
+  height: 200px;
+  border: solid;
+  border-color: yellow;
+  border-width: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px yellow, inset 10px 10px 10px yellow;
+  margin-left: 0;
+}
+
+.ring3 {
+  width: 60px;
+  height: 60px;
+  border: solid;
+  border-color: #646464;
+  border-width: 3px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  box-shadow: 3px 3px 3px #646464, inset 3px 3px 3px #646464;
+  margin-left: -12px;
+}
+
+.ring4 {
+  width: 72px;
+  height: 72px;
+  border: solid;
+  border-color: #646464;
+  border-width: 3.6px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  box-shadow: 3.6px 3.6px 3.6px #646464, inset 3.6px 3.6px 3.6px #646464;
+  margin-left: -14.4px;
+}
+
+.ring5 {
+  width: 86.4px;
+  height: 86.4px;
+  border: solid;
+  border-color: #646464;
+  border-width: 4.32px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  box-shadow: 4.32px 4.32px 4.32px #646464, inset 4.32px 4.32px 4.32px #646464;
+  margin-left: -17.28px;
+}
+
+.ring6 {
+  width: 103.68px;
+  height: 103.68px;
+  border: solid;
+  border-color: #646464;
+  border-width: 5.184px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  box-shadow: 5.184px 5.184px 5.184px #646464, inset 5.184px 5.184px 5.184px #646464;
+  margin-left: -20.736px;
+}
+
+.ring7 {
+  width: 124.416px;
+  height: 124.416px;
+  border: solid;
+  border-color: #646464;
+  border-width: 6.2208px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  box-shadow: 6.2208px 6.2208px 6.2208px #646464, inset 6.2208px 6.2208px 6.2208px #646464;
+  margin-left: -24.8832px;
+}
+
+.ring8 {
+  width: 149.2992px;
+  height: 149.2992px;
+  border: solid;
+  border-color: #646464;
+  border-width: 7.46496px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  box-shadow: 7.46496px 7.46496px 7.46496px #646464, inset 7.46496px 7.46496px 7.46496px #646464;
+  margin-left: -29.85984px;
+}
+
+/*//////////////////////////////// Footer  ///////////////////////////////////*/
+.footer{
+    background-color: rgba(254, 102, 29, 1);
+}
+.footer a{
+    color: rgba(255, 255, 255, 1);
+    font-family: AnironBold;
+    font-size: 0.8em;
+    line-height: 3em;
+}
+.footer ul{
+    list-style:none;
+}
